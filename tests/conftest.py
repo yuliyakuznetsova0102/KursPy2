@@ -4,7 +4,6 @@ import pytest
 
 from src.vacancy_job import Vacancy
 
-
 with open("tests/data_test.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 

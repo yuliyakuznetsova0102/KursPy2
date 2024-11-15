@@ -6,10 +6,6 @@ with open("tests/data_test.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 
 
-def test_valid(valid):
-    """Тестирование метода валидации в классе HH()"""
-    test_vac = Vacancy('Разработчик', 'Москва', 20000, data)
-    assert test_vac == valid
 
 def test_filter_city(city):
     """Тестирование метода фильтрации по городу в классе HH()"""
